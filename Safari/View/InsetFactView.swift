@@ -32,6 +32,7 @@ struct InsetFactView_Previews: PreviewProvider {
     
     static var previews: some View {
         InsetFactView(animal: animals[0])
+            .preferredColorScheme(.dark)
             .previewLayout(.sizeThatFits)
             .padding( )
     }
